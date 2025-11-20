@@ -1,9 +1,8 @@
 
-// ====================================================
 // NOTAS IMPORTANTES SOBRE EL DISEÑO:
-// ====================================================
 
-/*
+
+
 1. SEPARACIÓN DE RESPONSABILIDADES
    - Cada clase tiene UNA responsabilidad clara
    - Usuario: gestión de usuarios
@@ -40,9 +39,9 @@
 
 
    
-// ====================================================
+
 // EJEMPLO DE EXTENSIÓN FUTURA: Nuevas estrategias de pago
-// ====================================================
+
 
 /*
 package com.reservas.pago;
@@ -104,9 +103,9 @@ public class PagoEfectivo implements EstrategiaPago {
 }
 */
 
-// ====================================================
+
 // EJEMPLO DE EXTENSIÓN FUTURA: Nuevos observadores
-// ====================================================
+
 
 /*
 package com.reservas.modelo;
