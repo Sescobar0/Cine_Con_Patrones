@@ -86,7 +86,7 @@ public class Reserva {
     
     /**
      * Permite agregar nuevos observadores a la reserva
-     * Por ejemplo: new NotificadorSMS(), new NotificadorPush()
+     * Por ejemplo: new NotificadorSMS(), new NotificadorWpp()
      * @param observador Observador a agregar
      */
     public void agregarObservador(ObservadorReserva observador) {
